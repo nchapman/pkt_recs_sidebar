@@ -1,0 +1,22 @@
+{{#recommendations}}
+  <div class="rec compact">
+    {{#image_src}}
+      <div class="img" style="background-image: url({{image_src}})"></div>
+    {{/image_src}}
+    <div class="text">
+      <div class="domain">{{domain}}</div>
+      <h3><a href="{{dedupe_url}}">{{title}}</a></h3>
+      <div class="excerpt">
+        {{excerpt}}
+      </div>
+    </div>
+  </div>
+{{/recommendations}}
+
+{{^recommendations}}
+<div class="rec no-recs">
+  <div class="text">
+    As you visit sites, we’ll bring you related content here to read next.
+  </div>
+</div>
+{{/recommendations}}

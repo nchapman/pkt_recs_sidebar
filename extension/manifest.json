@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Pocket Recommendations Sidebar",
+  "description": "Recommendations from Pocket as you browse.",
+  "version": "1.0.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "54.0"
+    }
+  },
+  "sidebar_action": {
+    "default_icon": "icons/pocket_outline.svg",
+    "default_title" : "Pocket Recommendations",
+    "default_panel": "sidebar/app.html"
+  },
+  "permissions": [
+    "tabs",
+    "*://getpocket.com/*"
+  ]
+}

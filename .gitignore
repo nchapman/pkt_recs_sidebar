@@ -1,0 +1,5 @@
+.DS_Store
+node_modules
+app.config.js
+extension/web-ext-artifacts/
+extension/sidebar/app.js

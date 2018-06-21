@@ -1,0 +1,24 @@
+{
+  "name": "pkt_recs_sidebar",
+  "version": "1.0.0",
+  "description": "Pocket Recommendations in your browser sidebar",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack --mode=production --watch"
+  },
+  "author": "Nick Chapman",
+  "license": "ISC",
+  "devDependencies": {
+    "backbone": "^1.3.3",
+    "css-loader": "^0.28.11",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "mustache-loader": "^1.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.2.1"
+  }
+}
